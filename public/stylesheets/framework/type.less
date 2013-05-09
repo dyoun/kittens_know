@@ -1,0 +1,76 @@
+// Body
+// ---------------------------
+p {
+  margin: 0 0 @baseLineHeight / 2;
+
+  &.lead {
+    font-size: @baseFontSize * @goldenRatio;
+    font-style: italic;
+    line-height: @baseLineHeight * @goldenRatio;
+  }
+}
+
+
+// Headings
+// ---------------------------
+
+h1.stupid-big { font-size: @baseFontSize * @goldenRatio * @goldenRatio * @goldenRatio * @goldenRatio; }
+
+h1 {
+  font-size: @baseFontSize * @goldenRatio * @goldenRatio * @goldenRatio;
+  line-height: @baseFontSize * @goldenRatio * @goldenRatio * @goldenRatio;
+  margin-bottom: 0.4em;
+}
+
+h2 {
+  font-size: @baseFontSize * @goldenRatio * @goldenRatio;
+  line-height: @baseFontSize * @goldenRatio * @goldenRatio;
+  margin: 0 0 (@baseLineHeight / 2);
+}
+
+h3 {
+  font-size: @baseFontSize * @goldenRatio;
+  margin-bottom: @baseLineHeight / 2;
+}
+
+h4 { font-size: @baseFontSize; }
+
+h1,
+h2,
+h3,
+h4 {
+  color: @headingsColor;
+  font-weight: normal;
+}
+
+h5 {
+  color: #777;
+  font-size: @baseFontSize * 0.8;
+  line-height: @baseLineHeight;
+  font-weight: normal;
+  margin: 0;
+}
+
+// Utility classes
+// ---------------------------
+
+.center {
+  text-align: center;
+}
+
+.salmon {
+  color: @salmon; // yum
+}
+
+.muted {
+  color: #777;
+}
+
+// Lists
+// ---------------------------
+
+li {
+  font-size: @baseFontSize * @goldenRatio;
+  line-height: (@baseFontSize * @goldenRatio) + 6px;
+  padding: 10px 0;
+}

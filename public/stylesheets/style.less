@@ -1,0 +1,28 @@
+/* Typography framework */
+
+/* Import global variables and mixins first */
+@import "/public/stylesheets/framework/variables.less";
+@import "/public/stylesheets/framework/mixins.less";
+
+/* Normalize https://github.com/necolas/normalize.css */
+@import "/public/stylesheets/framework/normalize.less";
+@import "/public/stylesheets/framework/structure.less";
+@import "/public/stylesheets/framework/skeleton.less";
+
+/* Base components */
+@import "/public/stylesheets/framework/type.less";
+@import "/public/stylesheets/framework/forms.less";
+
+/* Specific components */
+@import "/public/stylesheets/framework/cards.less";
+@import "/public/stylesheets/framework/adwords.less";
+@import "/public/stylesheets/framework/article.less";
+@import "/public/stylesheets/framework/footer.less";
+
+.price {
+  color: #333;
+  
+  small {
+    color: #999;
+  }
+}

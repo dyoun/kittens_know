@@ -1,0 +1,45 @@
+// Make all forms have space below them
+form {
+  margin: 0 0 @baseLineHeight;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="search"] {
+  display: inline-block;
+  height: @baseLineHeight;
+  padding: 4px 6px;
+  margin-bottom: @baseLineHeight / 2;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: #555;
+  .border-radius();
+  vertical-align: middle;
+  
+  &:focus {
+    border-color: #999;
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+  }
+}
+
+.search-huge {
+  display: block;
+  border: 2px solid transparent;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 8px 12px;
+  width: 100%;
+  .border-radius();
+  .box-shadow(1px 2px 3px #ccc);
+  .box-sizing(border-box);
+}
+
+
+.input-block {
+  .box-sizing(border-box);
+}

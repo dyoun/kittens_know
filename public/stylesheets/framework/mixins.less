@@ -1,0 +1,59 @@
+// Drop shadows
+.box-shadow(@shadow: 0px 1px 2px #ccc) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+
+// Transitions
+.transition(@transition) {
+  -webkit-transition: @transition;
+     -moz-transition: @transition;
+       -o-transition: @transition;
+          transition: @transition;
+}
+
+// Border Radius
+.border-radius(@radius: 4px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+// Box sizing
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+
+// Animations
+.animation-duration(@duration: 1s) {
+  -webkit-animation-duration: @duration;
+	   -moz-animation-duration: @duration;
+	     -o-animation-duration: @duration;
+	        animation-duration: @duration;
+}
+
+.animation-name(@name) {
+  -webkit-animation-name: @name;
+	   -moz-animation-name: @name;
+	     -o-animation-name: @name;
+	        animation-name: @name;
+}
+
+
+
+// Clearfix h5bp.com/q
+// -----------------------
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}

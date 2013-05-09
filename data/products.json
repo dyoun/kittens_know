@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Kitten one",
+    "photo_url": "http://www.placekitten.com/270/180",
+    "price": "$100",
+    "description": "Super great feline catnip scratch toy soft furry cute."
+  },
+  {
+    "name": "Kitten two",
+    "photo_url": "http://www.placekitten.com/270/180",
+    "price": "$100",
+    "description": "Super great feline catnip scratch toy soft furry cute."
+  },
+  {
+    "name": "Kitten three",
+    "photo_url": "http://www.placekitten.com/270/180",
+    "price": "$100",
+    "description": "Super great feline catnip scratch toy soft furry cute."
+  }
+]

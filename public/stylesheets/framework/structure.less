@@ -1,0 +1,43 @@
+//
+// Structure
+// --------------------------------------------------
+
+
+// Body reset
+// -------------------------
+
+body {
+  margin: 0;
+  font-family: @baseFontFamily;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: @textColor;
+  background-color: @bodyBackground;
+}
+
+
+// Links
+// -------------------------
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+}
+a:hover {
+  color: @linkColorHover;
+  text-decoration: underline;
+}
+
+.content {
+  background-color: #fff;
+  min-height: 40px;
+  //max-height: 1000px;
+  .border-radius();
+  .box-shadow();
+}
+
+section {
+  border-bottom: 1px solid #999;
+  padding: 0 0 40px;
+  .clearfix();
+}

@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .container
+    h1.center= title
+    
+    .row
+      .ten.columns.alpha
+        #news.content
+        
+      .six.columns.omega
+        .content(style='padding:20px;height:550px')
+          img(src='http://placekitten.com/340/340', style='width:100%')
+          p Mr. Paws, Editor-in-Chief
+          p Realtime 24/7 updates about kittens, all the time every time.
+  
+  script(src='javascripts/lodash.min.js', type='text/javascript')
+  script(src='/socket.io/socket.io.js', type='text/javascript')
+  script(src='/javascripts/news.js', type='text/javascript')

@@ -1,0 +1,25 @@
+.article {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+
+  &.highlighted {
+    .animation-duration(2s);
+    .animation-name(fadeOut);
+  }
+  
+  .timestamp {
+    font-family: @sansFontFamily;
+  }
+  
+}
+
+@keyframes fadeOut {
+  from {
+    background-color: #ff6;
+  }
+  
+  to {
+    background-color: #fff;
+  }
+}
+
